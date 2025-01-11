@@ -1,0 +1,34 @@
+# Expo files
+.expo/
+.expo-shared/
+
+# React Native specific
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# macOS
+.DS_Store
+
+# Android & iOS build directories
+android/
+ios/
+
+# Build artifacts
+dist/
+build/
+
+# Misc
+.env
+*.log
+
+# VSCode
+.vscode/
+
+# Expo build logs
+.expo/logs/
+
+# Watchman configuration
+.watchmanconfig
