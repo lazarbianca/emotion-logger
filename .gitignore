@@ -1,34 +1,38 @@
-# Expo files
-.expo/
-.expo-shared/
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
-# React Native specific
+# dependencies
 node_modules/
-npm-debug.log
-yarn-error.log
-package-lock.json
-yarn.lock
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
 
 # macOS
 .DS_Store
+*.pem
 
-# Android & iOS build directories
-android/
-ios/
+# local env files
+.env*.local
 
-# Build artifacts
-dist/
-build/
+# typescript
+*.tsbuildinfo
 
-# Misc
-.env
-*.log
-
-# VSCode
-.vscode/
-
-# Expo build logs
-.expo/logs/
-
-# Watchman configuration
-.watchmanconfig
+app-example
